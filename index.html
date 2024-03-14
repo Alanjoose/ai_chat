@@ -20,52 +20,10 @@
     <!-- begin::Main -->
     <main id="messages-container">
 
-        <section class="message">
+        <section class="message" data-is-mine="false">
 
             <div class="message-sender-resume">
-                <img src="./assets/img/ChatGPT_logo.svg.png" class="message-sender-pic" alt="Message sender profile picture" style="width: 1.87rem;">
-                <p class="message-sender-name">ChatGpt</p>
-            </div>
-
-            <p class="message-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas totam sunt odit molestiae pariatur mollitia
-                 vel, soluta tenetur labore itaque perspiciatis ea inventore, fugiat est commodi! Quis, ea aut?
-            </p>
-
-        </section>
-
-        <section class="message">
-
-            <div class="message-sender-resume">
-                <img src="./assets/img/ChatGPT_logo.svg.png" class="message-sender-pic" alt="Message sender profile picture" style="width: 1.87rem;">
-                <p class="message-sender-name">ChatGpt</p>
-            </div>
-
-            <p class="message-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas totam sunt odit molestiae pariatur mollitia
-                 vel, soluta tenetur labore itaque perspiciatis ea inventore, fugiat est commodi! Quis, ea aut?
-            </p>
-
-        </section>
-
-        <section class="message">
-
-            <div class="message-sender-resume">
-                <img src="./assets/img/ChatGPT_logo.svg.png" class="message-sender-pic" alt="Message sender profile picture" style="width: 1.87rem;">
-                <p class="message-sender-name">ChatGpt</p>
-            </div>
-
-            <p class="message-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas totam sunt odit molestiae pariatur mollitia
-                 vel, soluta tenetur labore itaque perspiciatis ea inventore, fugiat est commodi! Quis, ea aut?
-            </p>
-
-        </section>
-
-        <section class="message">
-
-            <div class="message-sender-resume">
-                <img src="./assets/img/ChatGPT_logo.svg.png" class="message-sender-pic" alt="Message sender profile picture" style="width: 1.87rem;">
+                <img src="./assets/img/ChatGPT_logo.svg.png" class="message-sender-pic" alt="Message sender profile picture">
                 <p class="message-sender-name">ChatGpt</p>
             </div>
 
@@ -82,7 +40,7 @@
     <!-- begin::Footer -->
     <footer>
         <section id="message-input">
-            <form action="#" method="post">
+            <form action="#" method="post" id="message-form">
                 <input type="text" name="message-content" id="">
                 <input type="submit" value="Send" id="submit">
             </form>

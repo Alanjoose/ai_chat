@@ -62,6 +62,10 @@ main .message .message-sender-resume {
     align-items: center;
 }
 
+main .message .message-sender-pic {
+    width: 1.87rem;
+}
+
 main .message .message-sender-resume .message-sender-name {
     font-size: clamp(.5rem, .8rem, 1rem);
     margin-left: .5rem;
